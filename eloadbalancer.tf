@@ -1,4 +1,4 @@
-/*
+
 # Create a new load balancer
 resource "aws_elb" "tf-elb" {
   name               = "tf-elb"
@@ -35,5 +35,3 @@ resource "aws_elb" "tf-elb" {
 output "elb_dns" {
   value = "${aws_elb.tf-elb.dns_name}"
 }
-
-*/

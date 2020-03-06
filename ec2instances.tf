@@ -1,5 +1,5 @@
 
-/*
+
 resource "aws_instance" "webservers" {
   count           = "${length(var.tf_subnet_cidr_block)}"
   ami             = "${var.webservers_ami}"
@@ -13,5 +13,3 @@ resource "aws_instance" "webservers" {
     Name = "Server-${count.index}"
   }
 }
-
-*/

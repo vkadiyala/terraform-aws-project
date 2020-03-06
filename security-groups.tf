@@ -1,4 +1,4 @@
-/*
+
 resource "aws_security_group" "tf_security_gp" {
   name        = "allow_http"
   description = "Allow http inbound traffic"
@@ -21,4 +21,3 @@ resource "aws_security_group" "tf_security_gp" {
     cidr_blocks = ["0.0.0.0/0"]
   }
 }
-*/
